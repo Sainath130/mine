@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div{
+           margin-left: 600px;
+           margin-top: 250px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 10px;
+            width: 300px;
+            height: 400px;
+            padding: 25px;
+            box-sizing: border-box;
+            background-color: beige;
+        }
+        .same{
+            margin-left: 50px;
+            
+        }
+        body{
+            background-color: aquamarine;
+        }
+        input:hover{
+            border-style: solid;
+            border-color: aqua;
+            border-radius: 10px;
+        }
+
+    </style>
+<div >
+    <h1>Signup</h1>
+    <form action="signup" method="post">
+    <label for="1">firstname:</label><input type="text" name="fname" id="1" ><br><br>
+    <label for="2">lastname :</label><input type="text" name="lname" id="2"><br><br>
+    <label for="3">username:</label><input type="text" name="uname" id="3"><br><br>
+    <label for="4">password:</label><input type="password" name="pword" id="4"><br><br>
+    <label for="5">phone no:</label><input type="tel" name="phno" id="5" maxlength="10"><br><br>
+    <label for="6">mail id :</label><input type="email" name="mail" id="6"><br><br>
+    <input type="submit" class="same"><input type="reset" class="same">
+    </form>    
+</div>
+</body>
+</html>

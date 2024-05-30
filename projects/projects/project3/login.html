@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @keyframes demo
+        {
+            0%{
+                color:purple;
+                border-style: solid;
+                border-color: darkmagenta;
+            }
+            10%{
+                color:orange;
+                border-style: solid;
+                border-color: rgb(116, 195, 21);
+                
+            }
+            20%{
+                color:rgb(30, 196, 43);
+                border-style: solid;
+                border-color: rgb(70, 130, 85);
+            }
+            30%{
+                color:rgb(26, 154, 37);
+                border-style: solid;
+                border-color: rgb(54, 53, 90);
+            }
+            40%{
+                color:rgb(211, 155, 35);
+                border-style: solid;
+                border-color: rgb(137, 41, 83);
+            }
+            50%{
+                color:rgb(54, 59, 204);
+                border-style: solid;
+                border-color: rgb(19, 137, 200);
+            }
+            60%{
+                color:rgb(209, 46, 117);
+                border-style: solid;
+                border-color: rgb(22, 25, 178);
+            }
+            70%{
+                color:rgb(109, 53, 59);
+                border-style: solid;
+                border-color: rgb(201, 47, 152);
+            }
+            80%{
+                color:rgb(37, 149, 184);
+                border-style: solid;
+                border-color: darkmagenta;
+            }
+            90%{
+                color:rgb(38, 149, 208);
+                border-style: solid;
+                border-color: rgb(36, 185, 49);
+            }
+            100%{
+                color:purple;
+                border-style: solid;
+                border-color: rgb(67, 193, 157);
+            }
+        }
+        body{
+              background-image: url(./quiz\ bg.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+        }
+        div{
+            background-color: rgba(16, 9, 9, 0.673);
+            padding: 50px;
+            width: 200px; 
+            margin-top: 200px;
+            border-style: solid;
+            border-color: white;
+            color: white;
+            box-shadow: 3px 3px purple;
+            animation-name: demo;
+            animation-duration: 10s;
+        }
+        h1{
+            margin-right: 150px;
+        }
+        form{
+            border-style: solid;
+            border-color:rgb(148, 150, 153);
+            border-radius: 20px;
+        }
+        input{
+            border-radius: 10px;
+        }
+        a{
+            color: white;
+        }
+        span{
+            margin-right: 130px;
+        }
+    </style>
+     <center>
+    <div>
+    <h1><u>Login</u></h1>
+    <p>doesn't have an account yet? <br>
+        <a href="signup.html"><span>signup</span></a></p>
+    <form action="login" method="post">
+    <label for="1">username:</label><input type="text" name="uname" id="1"><br><br>
+    <label for="2">password:</label><input type="password" name="pword" id="2"><br><br>
+    <input type="submit" value="login">
+    </form>
+</div>
+</center>
+</body>
+</html>

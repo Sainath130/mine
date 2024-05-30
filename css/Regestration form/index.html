@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F716%2F150%2Fpng-transparent-computer-icons-form-website-development-favicon-paper-logo-text-rectangle-form.png&tbnid=8s7Kv7ee4clvJM&vet=12ahUKEwijsNrLr6GFAxWswaACHXT8DlkQMygAegQIARBM..i&imgrefurl=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-dtbtj&docid=DOkwsK76WMnLaM&w=920&h=980&q=form%20favicon&ved=2ahUKEwijsNrLr6GFAxWswaACHXT8DlkQMygAegQIARBM" type="image/x-icon">
+</head>
+<body >
+    <h1 class="tit">Regestration Form</h1>
+    <form action="main.py">
+        <div>
+            <label for="mr"></label><input type="text" name="MR" id="mr" value="MR" disabled>
+        <label for="fn">First Name <sup class="re">*</sup>:</label>
+    <input type="text" name="FName" id="fn" placeholder="First name" required>
+    <label for="ln">Last Name <sup class="re">*</sup> :</label>
+    <input type="text" name="LName" id="ln" placeholder="Last name">
+</div><br>
+<div>
+    <label for="em">Email:</label>
+    <input type="email" name="Email" id="em" >
+</div><br>
+<div>
+    <label for="pwd">Password</label>
+    <input type="password" name="passwors" id="pwd" placeholder="password">
+</div><br>
+<div>
+    <label for="dob">Date of Birth</label>
+    <input type="date" name="" id="dob">
+</div><br>
+<div>
+    <label >Choose Gender :</label>
+    <input type="radio" name="Gender" id="m" value="male"><label for="m">Male</label>
+    <input type="radio" name="Gender" id="f" value="female"> <label for="f">Female</label>
+</div><br>
+<label for="rel">Mobile No:</label>
+<input type="tel" name="Mobile num" id="tel" placeholder="Mobile Number">
+<div><br>
+    <label >Languages Known:</label><br>
+    <input type="checkbox" name="Languages" id="te" value="TELUGU"><label for="te">Telugu</label><br>
+    <input type="checkbox" name="Languages" id="eng" value="ENGLISH"><label for="eng">English</label><br>
+    <input type="checkbox" name="Languages" id="hin" value="HINDI" ><label for="hin">Hindi</label>
+</div><br>
+<div>
+    <label >Choose The Course</label>
+    <select name="" id="" >
+        <option value="">please Choose</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="Degree">Degree</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="B.ED">B.ED</option>
+    </select>
+</div><br>
+<div>
+    <label>Select Subjects</label>
+    <select name="" id="">
+        <option value="">please Choose</option>
+        <optgroup label="Common">
+        <option value="Maths">Maths</option>
+        <option value="Physics">Physics</option>
+        <option value="Chemistry">Chemistry</option>
+        </optgroup>
+        <optgroup label="MECH">
+        <option value="fm">Fluid Mechanics</option>
+        </optgroup>
+        <optgroup label="History">
+        <option value="General">COI</option>
+        </optgroup>
+        <optgroup label="ECE">
+        <option value="DBMS">DBMS</option>
+        </optgroup>
+        <optgroup label="CSE">
+        <option value="FCS">FCS</option>
+        </optgroup>
+    </select>
+</div>
+<div>
+    <label >Feedback:</label>
+    <textarea name="id" id="" cols="2" rows="1"></textarea>
+</div><br>
+<p>Note:All fields are Mandatory</p>
+<div>
+    <button>Submit</button>
+    <input type="reset" value="Reset">
+</div>
+</form>
+</body>
+</html>
